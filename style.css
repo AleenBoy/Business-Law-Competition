@@ -21,7 +21,7 @@ body {
 }
 
 .navbar {
-    background-color: #241d1e; /* Dark Brown */
+    background-color: #440a17; /* Dark Brown */
     position: fixed;
     width: 100%;
     z-index: 1000;
@@ -95,7 +95,7 @@ h1 {
     width: 100%;
     height: 100%;
     z-index: -1;
-    opacity: 0.8; /* Adjust transparency as needed */
+    opacity: 50%; /* Adjust transparency as needed */
     overflow: hidden;
 }
 
