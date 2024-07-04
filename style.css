@@ -95,7 +95,7 @@ h1 {
     width: 100%;
     height: 100%;
     z-index: -1;
-    opacity: 50%; /* Adjust transparency as needed */
+    opacity: 100%; /* Adjust transparency as needed */
     overflow: hidden;
 }
 
@@ -198,4 +198,103 @@ h1 {
 }
 
 
+        /* Styles for NBLC section */
+        .nblc-section {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .nblc-content {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-wrap: wrap;
+            max-width: 600px; /* Sesuaikan dengan kebutuhan */
+            margin-top: 30px;
+        }
+
+        .nblc-image {
+            flex: 0 0 300px; /* Fixed width for the image */
+            margin-right: 20px;
+        }
+
+        .nblc-image img {
+            width: 100%;
+            height: auto;
+            max-width: 100%; /* Ensure image does not exceed container */
+        }
+
+        .nblc-description {
+            flex: 1.7; /* Take remaining space */
+        }
+
+        .partner-section {
+            background-color: #3c0707; /* Medium Gray */
+            color: rgb(237, 237, 237);
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .partner-section h3 {
+            color: #e1e1e1; /* Gold */
+            font-size: 1.5rem;
+        }
+
+        .partner-logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .partner-logo {
+            width: 100px; /* Sesuaikan dengan lebar logo */
+            margin: 20px; /* Sesuaikan dengan jarak antar logo */
+        }
+
+        .partner-logo img {
+            width: 100%;
+            height: auto;
+            max-width: 100%; /* Pastikan logo tidak melebihi container */
+        }
+
+/* Sosmed */
+.footer-banner {
+    background-color: #2a080f; 
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.footer-banner img {
+    height: 200px; /* Tripled the height */
+    margin-right: 20px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+}
+
+.footer-text {
+    margin-left: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media a img {
+    width: 24px;
+    height: 24px;
+
+}
 
