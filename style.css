@@ -12,6 +12,7 @@ html{
 }
 
 body {
+    font-family: 'Libre Baskerville', serif;
     background-color: #241d1e; /* Dark Brown */
     color: #e7e7e7; /* Light Gray */
 }
@@ -29,6 +30,7 @@ body {
 
 .navbar-brand, .nav-link {
     color: #d3bda5 !important; /* Light Beige */
+    font-family: 'Muli', sans-serif;
 }
 
 .theme-box {
@@ -86,6 +88,7 @@ body {
 h1 {
     margin: 0;
     color: #d9b052; /* Gold */
+    font-family: 'Libre Baskerville', serif;
 }
 
 .slideshow {
@@ -137,6 +140,11 @@ h1 {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     margin-bottom: 20px;
 }
+
+.content, .about, .theme, .partner-section {
+    font-family: 'Muli', sans-serif;
+}
+
 .card img {
     width: 100%;
     height: 100%;
@@ -295,6 +303,6 @@ h1 {
 .social-media a img {
     width: 24px;
     height: 24px;
-
+    filter: invert(1); /* Invert the color of social media icons */
 }
 

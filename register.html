@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Law Competition Registration</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&family=Muli:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #2a080f; 
+            font-family: 'Muli', sans-serif;
+            color: #333;
+        }
+
+        .header-title {
+            text-align: center;
+            margin: 40px 0;
+            color: #d9b052; /* Gold */
+            font-size: 28px;
+            font-family: 'Libre Caslon Text', serif;
+        }
+
+        .main-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .event-description {
+            width: 45%;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-family: 'Muli', sans-serif;
+        }
+
+        .countdown-container {
+            background-color: #2a080f;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .countdown {
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .registration-form {
+            width: 45%;
+            padding: 20px;
+        }
+
+        .registration-form h2 {
+            color: #2a080f;
+            margin-bottom: 20px;
+            font-family: 'Libre Caslon Text', serif;
+        }
+
+        .registration-form label {
+            font-weight: bold;
+            margin-top: 10px;
+            font-family: 'Muli', sans-serif;
+        }
+
+        .registration-form input,
+        .registration-form select,
+        .registration-form button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-family: 'Muli', sans-serif;
+        }
+
+        .registration-form button {
+            background-color: #2a080f;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+            font-family: 'Muli', sans-serif;
+        }
+
+        .registration-form button:hover {
+            background-color: #a0525b;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-title">
+        <h1><b>The 6<sup>th</sup> National Business Law Community Internal<br> Legal Opinion Competition 2024</b></h1>
+    </div>
+
+    <div class="main-container">
+        <div class="event-description">
+            <div class="countdown-container">
+                <div class="countdown">14 Days 21 Hours 56 Minutes</div>
+            </div>
+            <p><strong>Event Description:</strong></p>
+            <p>Welcome to the 6th National Business Law Community Internal Legal Opinion Competition 2024. This competition aims to foster the spirit of competition and intellectual discussion among law students across the nation. Participants will engage in various legal challenges that test their knowledge and skills in business law. Join us and showcase your talents while gaining invaluable experience and networking opportunities.</p>
+        </div>
+
+        <div class="registration-form">
+            <h2>Normal Registration: Legal Opinion Competition</h2>
+            <form action="" method="post">
+                <label for="universityName">Nama Universitas</label>
+                <input type="text" id="universityName" name="universityName" required>
+
+                <label for="delegateName">Nama Calon Ketua Delegan</label>
+                <input type="text" id="delegateName" name="delegateName" required>
+
+                <label for="delegatePhone">No Telepon Calon Ketua Delegasi</label>
+                <input type="text" id="delegatePhone" name="delegatePhone" required>
+
+                <label for="delegateEmail">E-mail Calon Ketua Delegasi</label>
+                <input type="email" id="delegateEmail" name="delegateEmail" required>
+
+                <label for="delegateLineID">ID LINE Calon Ketua Delegan</label>
+                <input type="text" id="delegateLineID" name="delegateLineID" required>
+
+                <label for="delegationStatute">Statuta Delegasi (doc/docx)</label>
+                <input type="file" id="delegationStatute" name="delegationStatute" required>
+
+                <label for="delegationProposal">Proposal Delegasi (pdf)</label>
+                <input type="file" id="delegationProposal" name="delegationProposal" required>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"></script>
+</body>
+</html>
